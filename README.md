@@ -53,7 +53,7 @@ sudo apt-get install -y libcurl4-openssl-dev libssl-dev libopencv-dev
 ```
 - Copy libraries into system folder
 ```
-cp ./bin/linux_x86_64/libfm_models.so /usr/lib
+cp ./bin/linux_x86_64/libminiai_models.so /usr/lib
 cp ./bin/linux_x86_64/libimutils.so /usr/lib
 ```
 
@@ -97,13 +97,12 @@ pip install -r requirements.txt
 python app.py
 ```
 <p align="center">
-  <img width="360" src="https://user-images.githubusercontent.com/122285115/211873670-053fccc6-ffcf-443d-8d6d-6c3e2c161374.png">&emsp;&emsp;
-  <img width="360" src="https://user-images.githubusercontent.com/122285115/211873784-0ba680ca-aad4-4535-bd6c-cefc328afdb3.png">
+  <img width="360" src="https://github.com/MiniAiLive/MiniAI-Face-LivenessDetection-ServerSDK/assets/153516004/2254e5a7-a647-4a6b-99ab-1ad631c8266d">&emsp;&emsp;
+  <img width="360" src="https://github.com/MiniAiLive/MiniAI-Face-LivenessDetection-ServerSDK/assets/153516004/fdd16c8e-b90e-4fa0-a304-aa5f287cb506">
 </p>
 
-
 ## Docker Flask Example
-- Replace license key in app.py https://github.com/FaceMe-SDK/FaceLivenessDetection-ServerSDK/blob/eaf9ce81dff32b329d66853461f5d8acb38c5568/flask/app.py#L19-L25
+- Replace license key in app.py
 - Build docker image
 ```
 docker build --pull --rm -f "Dockerfile" -t miniailiveness:latest "."
