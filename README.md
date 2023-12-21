@@ -116,6 +116,16 @@ docker run --network host miniailiveness
 Feel free to [Contact US](https://www.miniai.live/contact/)  to get trial License   
 You will get email with trial license key ("XXXXX-XXXXX-XXXXX-XXXXX").
 
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+```java 
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the original repository.
+```
+
 ## About MiniAiLive
 [MiniAiLive](https://www.miniai.live/) is a leading AI solutions company specializing in computer vision and machine learning technologies. We provide cutting-edge solutions for various industries, leveraging the power of AI to drive innovation and efficiency.
 
