@@ -6,7 +6,7 @@
 
 ## Welcome to the [MiniAiLive](https://www.miniai.live/)!
 A 100% spoofing-prevention rate for both 3D printed and resin facial masks, confirms MiniAiLive® as a leading facial recognition solution for preventing biometric fraud in remote applications, such as online banking, requiring identity verification before granting access to sensitive data or valuable assets.
-Feel free to use our MiniAI 3D Face Passive Liveness Detection (face anti-spoofing) Server SDK.
+Feel free to use our MiniAI 3D Face Passive Liveness Detection (face anti-spoofing) Linux SDK.
 
 > **Note**
 >
@@ -15,7 +15,7 @@ Feel free to use our MiniAI 3D Face Passive Liveness Detection (face anti-spoofi
 ## Project Structure
 ```graphql
 # Code & components for pages
-./MiniAI-Face-LivenessDetection-ServerSDK
+./FaceLivenessDetection-Linux-SDK
   ├─ bin/linux_x86_64                 - # Core library files
   │  ├─ libminiai_liveness.so
   │  ├─ libminiai_models.so
@@ -44,7 +44,7 @@ Feel free to use our MiniAI 3D Face Passive Liveness Detection (face anti-spoofi
 #### - Linux
 - Download repo and extract it
 ```
-git clone https://github.com/MiniAiLive/MiniAI-Face-LivenessDetection-ServerSDK.git
+git clone https://github.com/MiniAiLive/FaceLivenessDetection-Linux-SDK.git
 ```
 - Install system dependencies
 ```
