@@ -1,5 +1,5 @@
 <div align="center">
-   <h1> MiniAiLive Face Liveness Detection Windows SDK </h1>
+   <h1> MiniAiLive Face Liveness Detection Linux SDK </h1>
    <img src=https://miniai.live/wp-content/uploads/2024/02/logo_name-1-768x426-1.png alt="MiniAiLive Logo"
    width="300">
 </div>
@@ -23,13 +23,13 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 ### Prerequisites
 
 - Python 3.6+
-- Windows
+- Linux
 - CPU: 2cores or more
 - RAM: 4GB or more
 
 ### Installation Steps
 
-1. **Download the Face Liveness Detection Windows Server Installer:**
+1. **Download the Face Liveness Detection Linux Server Installer:**
 
    Download the Server installer for your operating system from the following link:
    
