@@ -40,7 +40,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
    Run the installer and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
    ```sh
    $ cd Download
-   $ sudo dpkg -i --force-overwrite MiniAiLive-IDSDK-LinuxServer.deb
+   $ sudo dpkg -i --force-overwrite MiniAiLive-FaceLiveness-LinuxServer.deb
    ```
 <div align="center">
    <img src=https://github.com/user-attachments/assets/01507acf-cca0-43c7-91f8-f9605805219b alt="MiniAiLive Installer">
@@ -127,7 +127,7 @@ We have included a Gradio demo to showcase the capabilities of our Face Liveness
    First, you need to install Gradio. You can do this using pip:
 
    ```sh
-   git clone https://github.com/MiniAiLive/FaceLivenessDetection-Windows-SDK.git
+   git clone https://github.com/MiniAiLive/FaceLivenessDetection-Linux-SDK.git
    pip install -r requirement.txt
    cd gradio
    ```
