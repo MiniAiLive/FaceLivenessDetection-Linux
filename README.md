@@ -37,31 +37,46 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 
 2. **Install the On-premise Server:**
 
-   Run the installer and follow the on-screen instructions to complete the installation.
-   <div align="center">
-      <img src="https://github.com/user-attachments/assets/3438fa1c-f869-4ac0-85fc-762716da09bc" width="450" />
-   </div>
+   Run the installer and follow the on-screen instructions to complete the installation. Go to the Download folder and run this command.
+   ```sh
+   $ cd Download
+   $ sudo dpkg -i --force-overwrite MiniAiLive-IDSDK-LinuxServer.deb
+   ```
+<div align="center">
+   <img src=https://github.com/user-attachments/assets/01507acf-cca0-43c7-91f8-f9605805219b alt="MiniAiLive Installer">
+</div>
 
-4. **Request License and Update:**
+   You can refer our Documentation here. https://docs.miniai.live
 
-   Run MIRequest.exe file to generate a license request file. You can find it here.
+3. **Request License and Update:**
+
+   You can generate the License Request file by using this command:
+   ```sh
+   $ cd /opt/miniai/dr-webapi
+   $ sudo ./MiRequest request /home/ubuntu/Download/trial_key.miq
+   ```
+<div align="center">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/7001cbe2-d246-40bf-acab-12786cc2d2e0 alt="MiniAiLive Installer">
+</div>
+   Then you can see the license request file on your directory, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
    
-   > C:\Users\Dev-1{Your User name}\AppData\Local\MiniAiLive\MiniAiLive-FaceLiveness-WinServer
+   ```sh
+   $ sudo ./MiRequest update /home/ubuntu/Download/trial_30.mis
+   ```
+<div align="center">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/e600fd00-895d-48d8-9228-396cd2fc6d98 alt="MiniAiLive Installer">
+</div>
 
-   Open it, generate a license request file, and send it to us via email or WhatsApp. We will send the license based on your Unique Request file, then you can upload the license file to allow to use. Refer the below images.
-   <div align="center">
-      <img src="https://github.com/user-attachments/assets/d54686be-c7d8-42ba-8c57-f62fe1ec81e3" width="300" />
-      <img src="https://github.com/user-attachments/assets/e33757a7-7fb1-411e-8136-129800198773" width="300" />
-      <img src="https://github.com/user-attachments/assets/f34cdb2d-2b4e-48ec-b303-fd38cf128336" width="300" />
-      <img src="https://github.com/user-attachments/assets/b1579722-462c-478a-9106-67b9a10b3514" width="300" />
-   </div>
+4. **Verify Installation:**
 
-6. **Verify Installation:**
-
-   After installation, verify that the On-premise Server is correctly installed by checking the task manager:
-   <div align="center">
-      <img src="https://github.com/user-attachments/assets/98e87782-073d-475c-962f-37151ef9754f" width="450" />
-   </div>
+   After installation, verify that the On-premise Server is correctly installed by using this command:
+   ```sh
+   $ systemctl list-units --state running
+   ```
+   If you can see 'Mini-drsvc.service', 'Mini-idsvc.service', the server has been installed successfully. Refer the below image.
+<div align="center">
+   <img src=https://github.com/MiniAiLive/ID-DocumentRecognition-Linux/assets/127708602/18edc1d1-ddf4-48a7-86c8-eb48e01b4317 alt="MiniAiLive Installer">
+</div>
 
 ## API Details
 
@@ -112,8 +127,8 @@ We have included a Gradio demo to showcase the capabilities of our Face Liveness
 
    ```sh
    git clone https://github.com/MiniAiLive/FaceLivenessDetection-Windows-SDK.git
-   cd gradio
    pip install -r requirement.txt
+   cd gradio
    ```
 2. **Run Gradio Demo:**
    ```sh
@@ -121,7 +136,7 @@ We have included a Gradio demo to showcase the capabilities of our Face Liveness
    ```
 ## Python Test API Example
 
-To help you get started with using the API, here is a comprehensive example of how to interact with the Face Liveness Detection API using Python. You can use API with other language you want to use like C++, C#, Ruby, Java, Javascript and more
+To help you get started with using the API, here is a comprehensive example of how to interact with the Face Liveness Detection API using Python. You can use API with another language you want to use like C++, C#, Ruby, Java, Javascript, and more
 
 ### Prerequisites
 
@@ -177,7 +192,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## Try Online Demo
 Please visit our ID API Web Demo here. https://demo.miniai.live
 <a href="https://demo.miniai.live" target="_blank">
-  <img alt="" src="https://github.com/MiniAiLive/ID-DocumentRecognition-Windows-SDK/assets/127708602/15de62ae-1d5a-408f-9805-60e935da40b4">
+  <img alt="" src="https://github.com/MiniAiLive/FaceLivenessDetection-Linux-SDK/assets/127708602/0af044de-75df-40c9-9c6d-8fc6d7643dd2">
 </a>
 
 ## Related Product
