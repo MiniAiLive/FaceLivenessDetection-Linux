@@ -10,7 +10,7 @@ A 100% spoofing-prevention rate for both 3D printed and resin facial masks, conf
 > **Note**
 >
 > SDK is fully on-premise, processing all happens on hosting server and no data leaves server.
-
+## Latest SDK Download [Here](https://drive.google.com/drive/folders/1JdYbz2dEhMSLO9Blz8Y9Z2RosJbnIRff?usp=drive_link)
 ## Table of Contents
 
 - [Installation Guide](#installation-guide)
